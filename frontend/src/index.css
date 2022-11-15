@@ -1,16 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body,html{
+
+body,
+html {
     background-color: black;
     color: aliceblue;
 }
-a, a:hover, a:visited {
+
+a,
+a:hover,
+a:visited {
     color: unset;
     text-decoration: none;
+}
+
+.dsmeta-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+#sales {
+    padding: 40px 10px;
 }
